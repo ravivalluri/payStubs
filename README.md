@@ -1,4 +1,4 @@
-# React
+# This Paystub calculator app is based on React
 
 * React 16
 * Redux
