@@ -1,5 +1,5 @@
 .nav_bar {
-    background-color: var(--app-nav-bar-bg-color);
+    background-color: var(--dusty);
     line-height: 50px;
 }
 
@@ -14,14 +14,14 @@
 }
 
 .nav_bar li {
-    color: var(--app-nav-bar-font-color);
-    font-size: 16px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: var(--paper);
+    font-size: 20px;
+    font-family: var(--roboto);
     text-align: left;
 }
 
 .nav_right {
-    float: right!important;
+    float: right !important;
     padding-right: 25px;
     display: inline-block;
 }
@@ -61,4 +61,8 @@
         padding-left: 33px;
         padding-right: 0;
     }
+}
+
+body {
+    background-color: var(--paper) !important;
 }

@@ -5,6 +5,7 @@
 .margin_left_15 {
     margin-left: 15px;
 }
+
 .margin_top_15 {
     margin-top: 10%;
 }
@@ -33,18 +34,16 @@
     float: right;
 }
 
-.payslip {
-
-}
+.payslip {}
 
 .payslip_card {
-    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
 }
 
 .payslip_card:hover {
-    box-shadow: 4px 8px 45px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 8px 45px 0 rgba(0, 0, 0, 0.2);
 }
 
 .salary_slip_header {
@@ -59,38 +58,45 @@
     height: 15px;
 }
 
-.basic_details {
+.basic_details {}
 
-}
 .basic_details_left {
     width: 50%;
 }
+
 .basic_details_right {
     width: 50%;
 }
+
 .salary_details {
     width: 100%;
 }
 
 .generate_button {
-    background-color: var(--app-pink-color);
+    background-color: var(--overcast);
 }
 
-.width_adjustment_50 {
+.width_adjustment_50 {}
 
+input::-webkit-datetime-edit {
+    color: transparent;
 }
 
-input::-webkit-datetime-edit{ color: transparent; }
-input::value::-webkit-datetime-edit{ color: #000000; }
-input:focus::-webkit-datetime-edit { color: #000000; }
+input::value::-webkit-datetime-edit {
+    color: #000000;
+}
+
+input:focus::-webkit-datetime-edit {
+    color: #000000;
+}
 
 @media only screen and (max-width: 800px) {
 
     .app_form {
-       width: 100%;
+        width: 100%;
     }
 
-    .app_result{
+    .app_result {
         width: 100%;
     }
 
@@ -102,12 +108,12 @@ input:focus::-webkit-datetime-edit { color: #000000; }
 
 @media only screen and (max-width: 600px) {
 
-    .basic_details_left{
+    .basic_details_left {
         width: 100%;
         margin-bottom: 5%;
     }
 
-    .basic_details_right{
+    .basic_details_right {
         width: 100%;
     }
 
